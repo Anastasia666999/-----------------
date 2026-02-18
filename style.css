@@ -160,7 +160,7 @@ body:has(.burger-checkbox:checked) {
 
 /* ========== СТРАНИЦА HOME ========== */
 .home-page {
-  background-image: url(/фон.png);
+  background-image: url(фон.png);
 }
 
 .horisontal {
@@ -217,7 +217,7 @@ body:has(.burger-checkbox:checked) {
 /* ========== СТРАНИЦА ABOUT ========== */
 .about-page {
   margin-top: 10px;
-  background-image: url(/фон2.png);
+  background-image: url(фон2.png);
   margin-bottom: 10px;
 }
 
@@ -279,7 +279,7 @@ body:has(.burger-checkbox:checked) {
 
 /* ========== СТРАНИЦА RESUME ========== */
 .resume-page {
-  background-image: url(/фон2.png);
+  background-image: url(фон2.png);
   margin-bottom: 10px;
 }
 
@@ -349,7 +349,7 @@ body:has(.burger-checkbox:checked) {
 
 /* ========== СТРАНИЦА CONTACT ========== */
 .contact-page {
-  background-image: url(/фон.png);
+  background-image: url(фон.png);
 }
 
 .container_contact {
