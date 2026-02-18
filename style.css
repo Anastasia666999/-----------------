@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed - перенесено в десктопную версию */
 }
 
 .page-gap {
@@ -367,6 +367,7 @@ body:has(.burger-checkbox:checked) {
   border-radius: 50px;
   border-bottom: 2px solid #44034a;
   margin-top: 80px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -377,7 +378,7 @@ body:has(.burger-checkbox:checked) {
 .h1_contact {
   color: #44034a;
   font-size: 50px;
-  margin-bottom: 23px;
+  margin-bottom: 30px;
 }
 
 .items_contact {
@@ -495,6 +496,11 @@ body:has(.burger-checkbox:checked) {
 
 /* Планшеты */
 @media screen and (max-width: 768px) {
+  /* Отключаем fixed фон на мобильных */
+  .page {
+    background-attachment: scroll;
+  }
+  
   .burger-menu {
     display: flex;
   }
@@ -609,7 +615,9 @@ body:has(.burger-checkbox:checked) {
   }
   
   .p_container {
-    width: 100%;
+    width: auto;
+    max-width: 80%;
+    margin: 0 auto;
     padding: 20px;
   }
   
@@ -665,13 +673,14 @@ body:has(.burger-checkbox:checked) {
   
   .color_container_contact {
     margin-top: 40px;
+    margin-bottom: 30px;
     min-height: auto;
     padding: 30px 20px;
   }
   
   .h1_contact {
     font-size: 42px;
-    
+    margin-bottom: 20px;
   }
   
   .items_contact {
@@ -712,6 +721,11 @@ body:has(.burger-checkbox:checked) {
   
   .img_about {
     max-width: 200px;
+  }
+  
+  .p_container {
+    max-width: 85%;
+    padding: 18px;
   }
   
   .h1_resume {
@@ -815,6 +829,7 @@ body:has(.burger-checkbox:checked) {
   }
   
   .p_container {
+    max-width: 90%;
     padding: 15px;
   }
   
@@ -854,11 +869,14 @@ body:has(.burger-checkbox:checked) {
   
   /* CONTACT */
   .color_container_contact {
+    margin-top: 30px;
+    margin-bottom: 25px;
     padding: 20px 15px;
   }
   
   .h1_contact {
     font-size: 30px;
+    margin-bottom: 15px;
   }
   
   .p_contact {
@@ -898,6 +916,11 @@ body:has(.burger-checkbox:checked) {
   
   .img_about {
     max-width: 140px;
+  }
+  
+  .p_container {
+    max-width: 95%;
+    padding: 12px;
   }
   
   .p_hello {
@@ -956,6 +979,11 @@ body:has(.burger-checkbox:checked) {
     max-width: 120px;
   }
   
+  .p_container {
+    max-width: 98%;
+    padding: 10px;
+  }
+  
   .text_about br {
     display: none;
   }
@@ -988,6 +1016,11 @@ body:has(.burger-checkbox:checked) {
 
 /* Десктоп версия */
 @media screen and (min-width: 769px) {
+  /* Включаем fixed фон только на десктопе */
+  .page {
+    background-attachment: fixed;
+  }
+  
   .nav-menu {
     display: block;
     width: 100%;
