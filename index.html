@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shuiskaia dist</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- ========== ШАПКА (ОБЩАЯ ДЛЯ ВСЕХ СТРАНИЦ) ========== -->
+  <header class="header">
+    <div class="head_page">
+      <input type="checkbox" id="burger-toggle" class="burger-checkbox">
+
+      <!-- Лейбл с иконкой бургера -->
+      <label for="burger-toggle" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Навигационное меню -->
+      <nav class="nav-menu">
+        <ul class="ul">
+          <li class="list"><a href="#home">Home page</a></li>
+          <li class="list"><a href="#about">About me</a></li>
+          <li class="list"><a href="#resume">Resume</a></li>
+          <li class="list"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== СТРАНИЦА HOME ========== -->
+  <section id="home" class="page home-page">
+    <div class="horisontal">
+      <hr>
+    </div>
+
+    <div class="container_hello">
+      <div class="hello">
+        <img class="img_welcome" src="/лого приветствие.svg" alt="welcome">
+        <p class="p_hello">Welcome to my personal website.<br>
+          Click on any button in the header<br> to get to know me better.</p>
+      </div>
+    </div>
+
+    <hr class="hr1">
+    <div class="page-gap"></div>
+  </section>
+
+  <!-- ========== СТРАНИЦА ABOUT ========== -->
+  <section id="about" class="page about-page">
+    <div class="container_about">
+      <div class="content_about">
+        <h1 class="about_h1">About me</h1>
+        <div class="cat_text">
+          <div class="p_container">
+            <p class="text_about">My name is Anastasia Shuyskaya,<br> I'm studying to be a web developer. <br>I'm a
+              third-year college student, my skills<br> are listed below.
+              Nice to meet you. </p>
+          </div>
+
+
+          <img class="img_about" src="/котик.png" alt="cat">
+        </div>
+      </div>
+    </div>
+    <div class="page-gap"></div>
+  </section>
+
+  <!-- ========== СТРАНИЦА RESUME ========== -->
+  <section id="resume" class="page resume-page">
+    <div class="container_resume">
+      <div class="h1_content_resume">
+        <h1 class="h1_resume">SKILLS</h1>
+      </div>
+
+      <div class="content_resume">
+        <div class="card_resume">
+          <div class="text_resume">
+            <img class="icon_resume" src="/иконка.svg" alt="icon">
+            <p class="p_resume">Website layout</p>
+          </div>
+          <p class="p_res">I am skilled at marking up websites with <span
+              style='color:red; font-weight: 600;'>HTML</span> and <span
+              style="color:rgb(40, 4, 199); font-weight: 600;">CSS</span>,<br> ensuring correct page rendering across
+            all browsers and devices. I create responsive layouts.</p>
+        </div>
+
+        <div class="card_resume">
+          <div class="text_resume">
+            <img class="icon_resume" src="/иконка2.svg" alt="icon">
+            <p class="p_resume">Graphic design</p>
+          </div>
+          <p class="p_res">I'm proficient in graphic design, <br>capable of creating visually appealing mockups<br> and
+            unique designs that stand out from the crowd.</p>
+        </div>
+
+        <div class="card_resume">
+          <div class="text_resume">
+            <img class="icon_resume" src="/иконка3.svg" alt="icon">
+            <p class="p_resume">React</p>
+          </div>
+          <p class="p_res">I possess skills in developing mini-applications using the React library. I'm able to create
+            interactive interfaces and components.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="page-gap"></div>
+  </section>
+
+  <!-- ========== СТРАНИЦА CONTACT ========== -->
+  <section id="contact" class="page contact-page">
+    <div class="container_contact">
+      <div class="color_container_contact">
+        <h1 class="h1_contact">My contact</h1>
+        <div class="items_contact">
+          <div class="pochta_contact">
+            <img src="/почта.svg" alt="email">
+            <p class="p_contact">shuiskajaanata@mail.ru</p>
+          </div>
+          <div class="pochta_contact">
+            <img src="/телефон.svg" alt="phone">
+            <p class="p_contact">+7-921-556-**-78</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-gap"></div>
+  </section>
+
+  <footer>
+    <div class="container_footer">
+      <div class="content_footer">
+        <p class="footer_p">Shuiskaya Anastasia</p>
+        <p class="footer_p1">2026</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
