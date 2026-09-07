@@ -684,12 +684,12 @@ body:has(.burger-checkbox:checked) {
   }
   
   .items_contact {
-    gap: 25px;
+    gap: 20px;
   }
   
   .pochta_contact {
     width: 100%;
-    padding: 12px 15px;
+    padding: 8px 10px;
   }
 
   .pochta_contact img{
@@ -878,7 +878,6 @@ body:has(.burger-checkbox:checked) {
   
   .h1_contact {
     font-size: 30px;
-    margin-bottom: 15px;
   }
   
   .p_contact {
@@ -887,7 +886,6 @@ body:has(.burger-checkbox:checked) {
   
   .pochta_contact {
     gap: 10px;
-    padding: 10px;
   }
   
   /* ПОДВАЛ */
@@ -948,9 +946,6 @@ body:has(.burger-checkbox:checked) {
     font-size: 14px;
   }
   
-  .pochta_contact img {
-    width: 25px;
-  }
   
   .footer_p,
   .footer_p1 {
@@ -1000,7 +995,6 @@ body:has(.burger-checkbox:checked) {
   }
   
   .pochta_contact {
-    text-align: center;
     gap: 5px;
   }
   
