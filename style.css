@@ -672,8 +672,8 @@ body:has(.burger-checkbox:checked) {
   }
   
   .color_container_contact {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     min-height: auto;
     padding: 30px 20px;
   }
@@ -871,8 +871,7 @@ body:has(.burger-checkbox:checked) {
   
   /* CONTACT */
   .color_container_contact {
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
     padding: 20px 15px;
   }
   
